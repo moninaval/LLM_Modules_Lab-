@@ -1,0 +1,22 @@
+# Naval’s LLM Modules Learning Log
+
+This log tracks my day-by-day understanding and implementation of LLM components, aligned with the "Attention is All You Need" paper. Each module is built independently, with full control and execution.
+
+---
+
+## ✅ 2025-07-28
+
+- ✅ Finalized learning goal: to build a modular LLM from scratch and understand every part of the Transformer architecture in depth.
+- ✅ Identified the root cause of low confidence: relying on Vibe Coding without deep implementation experience.
+- ✅ Planned project folder: `LLM_Modules_Lab/` with separate folders for tokenizer, embedding, attention, etc.
+- ✅ Created first two modules:
+  - `tokenizer/simple_tokenizer.py`: word-level tokenizer that maps words to token IDs
+  - `embedding/token_embedding.py`: PyTorch embedding layer applied to token IDs
+- ✅ Understood the input flow: Text → Tokens → Token IDs → Embeddings → [To be added: Positional Encoding]
+
+**Next:**  
+- Add sinusoidal positional encoding as described in "Attention is All You Need"  
+- Visualize how position vectors combine with token embeddings  
+- Create `embedding/positional_encoding.py`
+
+---
